@@ -13,12 +13,5 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class UserController {
 
-    @Autowired
-    private UserRepository userRepository;
-
-    @GetMapping("/user")
-    public List<User> getListUser(){
-        return userRepository.findAll();
-    }
 
 }
