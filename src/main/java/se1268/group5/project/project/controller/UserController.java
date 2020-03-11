@@ -10,7 +10,7 @@ import se1268.group5.project.project.repository.UserRepository;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/user")
 public class UserController {
 
 
