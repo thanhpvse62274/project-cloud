@@ -15,6 +15,9 @@ public class ShoesCategory {
     @NotBlank
     private String name;
 
+    public ShoesCategory() {
+    }
+
     public ShoesCategory(@NotBlank String name) {
         this.name = name;
     }
