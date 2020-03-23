@@ -3,6 +3,7 @@ package se1268.group5.project.project.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import se1268.group5.project.project.payload.request.LoginRequest;
+import se1268.group5.project.project.payload.response.ApiResponse;
 import se1268.group5.project.project.payload.response.UserInfoResponse;
 import se1268.group5.project.project.service.UserService;
 
@@ -25,5 +26,11 @@ public class UserController {
     public UserInfoResponse getInfoUser(@RequestParam String username){
         UserInfoResponse response = userService.getInforUser(username);
         return response;
+    }
+
+
+    @PostMapping("register")
+    public ApiResponse registerUser(){
+        return null;
     }
 }
