@@ -42,6 +42,9 @@ public class Shoes {
         this.shoesCategory = shoesCategory;
     }
 
+    public Shoes() {
+    }
+
     public Long getId() {
         return id;
     }

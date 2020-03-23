@@ -4,7 +4,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import se1268.group5.project.project.model.ShoesCategory;
 
+import java.util.Optional;
+
 @Repository
 public interface ShoesCategoryRepository extends JpaRepository<ShoesCategory, Long> {
-
 }
