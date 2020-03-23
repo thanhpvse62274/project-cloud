@@ -1,8 +1,8 @@
 package se1268.group5.project.project.service;
 
-import se1268.group5.project.project.payload.request.LoginRequest;
-import se1268.group5.project.project.payload.response.LoginResponse;
+import se1268.group5.project.project.payload.response.UserInfoResponse;
 
 public interface UserService {
-    LoginResponse login(String username, String password);
+    UserInfoResponse login(String username, String password);
+    UserInfoResponse getInforUser(String username);
 }
