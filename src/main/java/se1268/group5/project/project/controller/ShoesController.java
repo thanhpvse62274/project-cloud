@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/shoes")
-@CrossOrigin(origins = "https://projeccloud-se1268-shoesstore.herokuapp.com")
+@CrossOrigin(origins = "*")
 public class ShoesController {
 
     @Autowired

@@ -12,7 +12,7 @@ import se1268.group5.project.project.service.ShoesCategoryService;
 
 @RestController
 @RequestMapping("/api/category")
-@CrossOrigin(origins = "https://projeccloud-se1268-shoesstore.herokuapp.com")
+@CrossOrigin(origins = "*")
 public class CategoryController {
 
     @Autowired

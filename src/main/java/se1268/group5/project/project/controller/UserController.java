@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
 
 @RestController
 @RequestMapping("/api/user")
-@CrossOrigin(origins = "https://projeccloud-se1268-shoesstore.herokuapp.com")
+@CrossOrigin(origins = "*")
 public class UserController {
 
     @Autowired
